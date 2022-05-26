@@ -3,36 +3,37 @@ import { Search, Person, Chat, Notifications } from "@mui/icons-material"
 
 export default function topbar() {
   return (
-    <div classmate="topbarContainer">
+    <div className="topbarContainer">
         <div className="topbarLeft">
-          <span className="logo">brixsocial</span>
+          <span className="logo">SocialMedia</span>
         </div>
         <div className="topbarCenter">
           <div className="searchbar">
-            <Search />
-            <input placeholder="Search for friend, post or video" className="search" />
+            <Search className="searchIcon"/>
+            <input placeholder="Search for friend, post or video" className="searchInput" />
           </div>
         </div>
         <div className="topbarRight">
           <div className="topbarlinks">
           <span className="topbarlinks">Homepage</span>
+
           <span className="topbarlinks">Timeline</span>
           </div>
           <div className="topbarIcons">
-            <div className="topbarIconsitem">
+            <div className="topbarIconsItem">
               <Person />
-              <span className="topbarIconBadge">5000</span>
+              <span className="topbarIconsBadge">1</span>
             </div>
-            <div className="topbarIconsitem">
+            <div className="topbarIconsItem">
               <Chat />
-              <span className="topbarIconBadge">2</span>
+              <span className="topbarIconsBadge">2</span>
             </div>
-            <div className="topbarIconsitem">
+            <div className="topbarIconsItem">
               <Notifications />
-              <span className="topbarIconBadge">1</span>
+              <span className="topbarIconsBadge">1</span>
             </div>
           </div>
-          <img src="/assets/sniper150.jpg" alt="" className="topbarImg" />
+          <img src="/assets/profilepicutes/post1.webp" alt="" className="topbarImg" />
         </div>
     </div>
   )
