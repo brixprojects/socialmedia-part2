@@ -47,20 +47,20 @@ export default function sidebar() {
             <span className="sidebarFriendName">PostMalone</span>
         </li>
         <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <img className="sidebarFriendImg" src="/assets/profilepicutes/post/wiz1.jpg" alt=""/>
+            <span className="sidebarFriendName">WizKhalifa</span>
         </li>
         <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <img className="sidebarFriendImg" src="/assets/profilepicutes/post/kurt1.jpg" alt=""/>
+            <span className="sidebarFriendName">kurt Clyde</span>
         </li>
         <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <img className="sidebarFriendImg" src="/assets/profilepicutes/post/mark.jpg" alt=""/>
+            <span className="sidebarFriendName">Mark Steven</span>
         </li>
         <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <img className="sidebarFriendImg" src="/assets/profilepicutes/post/marty.jpg" alt=""/>
+            <span className="sidebarFriendName">Marty Pabello</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
