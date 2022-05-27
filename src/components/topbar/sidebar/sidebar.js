@@ -64,47 +64,47 @@ export default function sidebar() {
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">BongBongMarcos</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">IndayDuterte</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">Jackma</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">jeff Bezos</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">Bill Gates</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">Steve Jobs</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">Skusta Clee</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">Flow G</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">RamsesWeed</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">Cong Tv</span>
         </li>
         <li className="sidebarFriend">
             <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
+            <span className="sidebarFriendName">SuperCarBlondie</span>
         </li>
         
 
