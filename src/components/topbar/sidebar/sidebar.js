@@ -1,7 +1,9 @@
-import "./sidebar.css"
+import "./sidebar.css";
 import {Chat, Group, RssFeed, School, WorkOutline, PlayCircleFilledOutlined, Bookmark, Event} from "@mui/icons-material";
+import { Users } from "../../../dummyData";
+import CloseFriend from "../../closeFriend/CloseFriend";
 
-export default function sidebar() {
+export default function Sidebar() {
   return (
     <div className="sidebar">
     <div className="sidebarWrapper">
@@ -42,72 +44,9 @@ export default function sidebar() {
     <button className="sidebarButton">Show More</button>
     <hr className="sidebarHr"/>
     <ul className="sidebarFriendList">
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">PostMalone</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post/wiz1.jpg" alt=""/>
-            <span className="sidebarFriendName">WizKhalifa</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post/kurt1.jpg" alt=""/>
-            <span className="sidebarFriendName">kurt Clyde</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post/mark.jpg" alt=""/>
-            <span className="sidebarFriendName">Mark Steven</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post/marty.jpg" alt=""/>
-            <span className="sidebarFriendName">Marty Pabello</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">BongBongMarcos</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">IndayDuterte</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">Jackma</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">jeff Bezos</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">Bill Gates</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">Steve Jobs</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">Skusta Clee</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">Flow G</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">RamsesWeed</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">Cong Tv</span>
-        </li>
-        <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/profilepicutes/post2.webp" alt=""/>
-            <span className="sidebarFriendName">SuperCarBlondie</span>
-        </li>
-        
-
+      {Users.map((u) => (
+        <CloseFriend key={u.id} user={u} />
+      ))}
     </ul>
     </div>
     </div>

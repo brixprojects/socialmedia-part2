@@ -6,7 +6,6 @@ import "./home.css"
 export default function home() {
   return (
     <>
-    
       <Topbar />
       <div className="homeContainer">
       <Sidebar />
